@@ -8,8 +8,8 @@ import type { NavItem, Service } from './types';
  * de modo que el chatbot de Fontanachat solo responde con lo que la página muestra.
  */
 
-/** Slug de KOEL Abogados en la API de Fontanachat (panel → Empresas). PENDIENTE de confirmar. */
-export const companySlug = 'koel-abogados';
+/** Slug de KOEL Abogados en la API de Fontanachat (panel → Empresas → Koel). */
+export const companySlug = 'koel';
 export const siteName = 'KOEL Abogados';
 
 export const navItems: NavItem[] = [

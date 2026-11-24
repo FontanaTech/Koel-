@@ -42,7 +42,7 @@ El sitio no tiene formulario. La sección **Contacto** muestra solo los canales 
 - `src/lib/chat.ts` (cliente, validación de `waUrl`, errores), `src/hooks/useChatController.ts` (lógica), `src/components/ChatWidget.tsx` + `src/styles/chat.css` (vista), `src/config/chatText.ts` (textos de la interfaz).
 - El widget solo aparece cuando la API responde. Los botones «Solicitar contacto empresarial» / «Solicitar orientación» abren el chat si está conectado; si no, llevan a Contacto.
 - El chat nunca arma enlaces de WhatsApp: solo usa el `waUrl` del servidor que empiece por `https://wa.me/`. El botón verde de la sección Contacto es un canal del sitio (configurado en `src/config/contact.ts`), independiente del chat.
-- `companySlug = 'koel-abogados'` está pendiente: la API respondió «Empresa no encontrada» el 24/11/2026.
+- `companySlug = 'koel'` (empresa «Koel» en el panel). Dominio de producción: `https://koel-khaki.vercel.app`.
 
 ## Despliegue en Vercel
 

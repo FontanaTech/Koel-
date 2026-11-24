@@ -6,7 +6,7 @@ import type { PublicConfig } from '../fontanachat-client';
 import { ChatWidget } from './ChatWidget';
 
 const API = 'https://api.test';
-const SLUG = 'koel-abogados';
+const SLUG = 'koel';
 const WA = 'https://wa.me/573000000000?text=Hola';
 
 const baseConfig: PublicConfig = {
